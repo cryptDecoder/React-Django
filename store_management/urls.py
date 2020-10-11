@@ -20,7 +20,8 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api-auth/', include('rest_framework.urls'), name="api-auth")
+    path('api-auth/', include('rest_framework.urls'), name="api-auth"),
+    path('api/', include('api.urls'), name="api")
 ]
 
 
