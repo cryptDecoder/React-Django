@@ -1,4 +1,4 @@
-aiohttp==3.6.2
+aiohttp==3.8.0
 asgiref==3.2.10
 async-timeout==3.0.1
 attrs==20.2.0
@@ -38,3 +38,4 @@ toml==0.10.1
 uritemplate==3.0.1
 urllib3==1.25.10
 yarl==1.6.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
