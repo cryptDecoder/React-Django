@@ -9,7 +9,7 @@ certifi==2020.6.20
 cffi==1.14.3
 chardet==3.0.4
 defusedxml==0.6.0
-Django==3.1.2
+Django==3.2.25
 django-extensions==3.0.9
 djangorestframework==3.12.1
 httplib2==0.18.1
